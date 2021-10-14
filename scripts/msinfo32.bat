@@ -1,0 +1,2 @@
+msinfo32
+EXIT
