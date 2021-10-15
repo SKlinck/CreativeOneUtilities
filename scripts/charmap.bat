@@ -1,2 +1,0 @@
-charmap
-EXIT

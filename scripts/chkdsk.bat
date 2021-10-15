@@ -1,2 +1,0 @@
-chkdsk c:
-pause

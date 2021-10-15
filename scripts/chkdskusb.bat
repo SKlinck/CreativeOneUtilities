@@ -1,2 +1,0 @@
-chkdsk e:
-pause
