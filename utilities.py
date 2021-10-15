@@ -71,7 +71,6 @@ def features():
      featureswin_text.insert('end', message)
      featureswin_text["state"] = DISABLED
 helpmenu.add_command(label="Program Features", command=features)
-helpmenu.add_separator()
 def license():
      licensewin = Toplevel(root)
      licensewin.iconbitmap('./assets/icons/CreativeOne.ico')
@@ -87,6 +86,11 @@ def license():
      licensewin_text.insert('end', message)
      licensewin_text["state"] = DISABLED
 helpmenu.add_command(label="License", command=license)
+helpmenu.add_separator()
+def updater():
+  import os
+  os.startfile(r".\Updater.py")
+helpmenu.add_command(label="Check for Updates", command=updater)
 menubar.add_cascade(label="Help", menu=helpmenu)
 
 root.config(menu=menubar)

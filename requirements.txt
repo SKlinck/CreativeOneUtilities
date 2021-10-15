@@ -1,0 +1,14 @@
+tkinter
+ttk
+tkinter.messagebox
+tkinter.ttk
+ttkbootstrap
+datetime    
+webbrowser
+interface
+numpy
+cv2
+pyautogui
+pillow
+pypiwin32
+requests
